@@ -1,4 +1,4 @@
-# proxysql-docker-compose
+# proxysql-docker
 
 This repository launches a small MySQL cluster (1 master and 2 slaves) and configure ProxySQL with 2 hostgroups.
 
