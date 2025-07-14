@@ -54,12 +54,3 @@ docker exec mysql3 sh -c "export MYSQL_PWD=111; mysql -u root -e 'SHOW SLAVE STA
 
 # 2. ProxySQL
 export MYSQL_PWD=radmin; cat ./conf/proxysql/*.sql | mysql -u radmin -h 127.0.0.1 -P 6032
-
-# mysql -u radmin -pradmin -h 127.0.0.1 -P 6032 --prompt='ProxySQLAdmin> '
-
-# mysql -u demo_user -pdemo_pwd -h 127.0.0.1 -P 6033 
-# USE demo
-# CREATE TABLE IF NOT EXISTS test_table (id INT); SELECT @@hostname;"
-
-
-# SELECT hostgroup, count_star, digest_text FROM stats_mysql_query_digest WHERE digest_text LIKE '%hostname%';
